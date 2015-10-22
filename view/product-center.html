@@ -1,10 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>丰润恒道</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/mui.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/mui.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <![endif]-->
 </head>
 <body>
+<!--导航-->
+<header class="mui-appbar mui--z1 nav-bar">
+    <div class="mui-container">
+        <table width="100%">
+            <tr class="mui--appbar-height">
+                <td class="mui--text-title logo">Brand.io</td>
+                <td align="right">
+                    <ul class="mui-list--inline mui--text-body2">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">走进丰润</a></li>
+                        <li><a href="#">丰润产品</a></li>
+                        <li><a href="#">投资理念</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+<div class="container">
+    <!--product part1-->
+    <div class="product-box product-part1"></div>
+    <!--product part2 1-->
+    <div class="product-box product-part2">
+        <section class="product-title">丰润产品1号</section>
+        <div class="product-part2-chart" id="chart1"></div>
+        <div class="product-part2-table">
+            <table class="mui-table mui-table--bordered table-content">
+                <thead>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 2</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Cell 1-1</td>
+                    <td>Cell 1-2</td>
+                    <td>Cell 1-2</td>
+                </tr>
+                <tr>
+                    <td>Cell 2-1</td>
+                    <td>Cell 2-2</td>
+                    <td>Cell 2-2</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--product part2 2-->
+    <div class="product-box product-part2">
+        <section class="product-title">丰润产品2号</section>
+        <div class="product-part2-chart" id="chart2"></div>
+        <div class="product-part2-table">
+            <table class="mui-table mui-table--bordered table-content">
+                <thead>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 2</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Cell 1-1</td>
+                    <td>Cell 1-2</td>
+                    <td>Cell 1-2</td>
+                </tr>
+                <tr>
+                    <td>Cell 2-1</td>
+                    <td>Cell 2-2</td>
+                    <td>Cell 2-2</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 
+<!--footer-->
+<footer></footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+<script src="../js/product-chart.js"></script>
 </body>
 </html>
