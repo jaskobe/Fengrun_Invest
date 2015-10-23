@@ -1,8 +1,22 @@
 $(document).ready(function(){
     $('#chart1').highcharts({
+        colors:["#60dfac","#60c9df"],
         title: {
             text: 'Monthly Average Temperature',
             x: -20 //center
+        },
+        chart: {
+            backgroundColor: {
+                linearGradient: { x1: 0, y1: 0, x2: 1, y2: 1 },
+                stops: [
+                    [0, '#272c40'],
+                    [1, '#272c40']
+                ]
+            },
+            style: {
+                fontFamily: "'Unica One', sans-serif"
+            },
+            plotBorderColor: '#272c40'
         },
         subtitle: {
             text: 'Source: WorldClimate.com',

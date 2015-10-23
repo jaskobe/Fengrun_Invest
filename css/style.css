@@ -63,13 +63,25 @@ footer{
     color: #2851a1;
 }
 .contact-box{
-    height: 230px;
-    background: #4a71d0;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 20px;
 }
-
+.contact-box .contact-form{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-box .contact-form .mui-textfield{
+    margin:10px;
+}
+.contact-box .contact-form .contact-sub{
+    width: 200px;
+}
 /*产品页面*/
 .product-box{
     width: 100%;
+    background: #272c40;
 }
 .product-part1{
     height: 200px;
@@ -84,9 +96,10 @@ footer{
     line-height: 60px;
 }
 .product-part2-chart{
-    background: #272c40;
-    min-height: 300px;
 
+    min-height: 300px;
+    width: 800px;
+    margin: 0 auto;
 }
 .product-part2-table{
 
