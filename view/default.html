@@ -7,9 +7,9 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>丰润恒道</title>
 
-    <!-- Bootstrap -->
     <link href="../css/mui.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
+    <link href="../fonts/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,7 +22,7 @@
     <div class="mui-container">
         <table width="100%">
             <tr class="mui--appbar-height">
-                <td class="mui--text-title logo">Brand.io</td>
+                <td class="mui--text-title logo">LOGO</td>
                 <td align="right">
                     <ul class="mui-list--inline mui--text-body2">
                         <li><a href="#">首页</a></li>
@@ -35,7 +35,7 @@
         </table>
     </div>
 </header>
-
+<div class="first-part"></div>
 <!--part1-->
 <div class="jumbotron  default-part1">
     <div class="container">
@@ -43,29 +43,96 @@
     </div>
 </div>
 <!--part2-->
-<div class="aboutus-title">关于我们</div>
-<section class="aboutus-box"></section>
+<div class="title-block aboutus-title">关于我们<span style="color: #888888">ABOUT US</span></div>
+<section class="aboutus-box">
+    <div class="common">
+        <div class="aboutus-text-box">
+            <h1>who｜<span style="color: #888888;">we are</span></h1>
+            <p>啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
+            <a class="aboutus-box-btn" href="#">more</a>
+        </div>
+        <img src="../img/default/peoples.jpg">
+    </div>
+</section>
 <!--part3-->
-<div class="partner-title">合作伙伴</div>
-<section class="partner-box"></section>
+<section class="banner-box"></section>
 <!--part4-->
-<div class="contact-title">联系我们</div>
+<div class="title-block partner-title">合作伙伴<span>PARTNER</span></div>
+<section class="partner-box">
+    <ul class="common">
+        <li><img src="../img/default/5.jpg" alt="中信建投期货"></li>
+        <li><img src="../img/default/4.jpg" alt="广州证券"></li>
+        <li><img src="../img/default/6.jpg" alt="国泰君安证券"></li>
+        <li><img src="../img/default/7.jpg" alt="中信证券"></li>
+    </ul>
+</section>
+<!--part5-->
+<section class="ourinvest-box">
+    <div class="title-block">我们的量化投资<span>OUR INVEST</span></div>
+    <section class="common" style="height: 340px">
+        <aside class="invest-ways">
+            <img src="../img/invest/board.png">
+            <h1>自然科学的研究方法</h1>
+            <p>一切市场行为的背后都有一定的规律，利用自然科学的方法可以准确的刻画市场规律。</p>
+        </aside>
+        <aside class="invest-ways">
+            <img src="../img/invest/clock.png">
+            <h1>自然科学的研究方法</h1>
+            <p>一切市场行为的背后都有一定的规律，利用自然科学的方法可以准确的刻画市场规律。</p>
+        </aside>
+        <aside class="invest-ways">
+            <img src="../img/invest/hands.png">
+            <h1>自然科学的研究方法</h1>
+            <p>一切市场行为的背后都有一定的规律，利用自然科学的方法可以准确的刻画市场规律。</p>
+        </aside>
+    </section>
+    <section class="invest-steps">
+        <h2>量化对冲步骤</h2>
+        <p>第一步，量化选股——精选股票组合，获取超额收益。</p>
+        <p>第二步，期货对冲——做空股指期货，对冲系统性风险。</p>
+    </section>
+
+</section>
+<!--part6-->
+<div class="title-block contact-title">联系我们<span>CONTACKT US</span></div>
 <section class="contact-box">
     <form class="contact-form">
-        <div class="mui-textfield">
-            <input type="text" placeholder="请输入您的尊称">
-        </div>
-        <div class="mui-textfield">
-            <input type="text" placeholder="请输入您的电话">
-        </div>
-        <div class="mui-textfield">
-            <input type="text" placeholder="请输入您的邮箱">
-        </div>
-        <div class="mui-textfield">
-            <textarea placeholder="请输入您的意见"></textarea>
-        </div>
-        <button type="submit" class="mui-btn mui-btn--raised contact-sub">提交</button>
+        <ul>
+            <li>
+                <div class="contact-form-l">
+                    <i class="fa fa-caret-right"></i>
+                </div>
+                <input type="text" class="contact-form-r" placeholder="请输入您的尊称">
+            </li>
+            <li>
+                <div class="contact-form-l">
+                    <i class="fa fa-caret-right"></i>
+                </div>
+                <input type="text" class="contact-form-r" placeholder="请输入您的电话">
+            </li>
+            <li>
+                <div class="contact-form-l">
+                    <i class="fa fa-caret-right"></i>
+                </div>
+                <input type="text" class="contact-form-r" placeholder="请输入您的邮箱">
+            </li>
+            <li>
+                <div class="contact-form-l" style="height: 120px">
+                    <i class="fa fa-caret-right" style="line-height: 120px"></i>
+                </div>
+                <textarea class="contact-form-r" style="height: 120px" placeholder="请输入您的意见"></textarea>
+            </li>
+        </ul>
+
     </form>
+    <div class="contact-info">
+        <p>啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
+        <p>啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
+        <p>啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
+        <p>啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
+    </div>
+    <button type="submit" class="mui-btn mui-btn--raised contact-sub">提交</button>
+
 </section>
 <!--footer-->
 <footer></footer>
